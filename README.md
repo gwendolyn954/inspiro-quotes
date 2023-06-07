@@ -12,4 +12,5 @@ A super-minimalistic inspirational quote generator, built to uplift (and serve a
 ## Upcoming Features:
 
 - Web Accessibility updates pertaining to new guidelines
+- Added responsiveness
 - Updated interface
