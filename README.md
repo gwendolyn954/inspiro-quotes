@@ -1,7 +1,7 @@
 # Inspiro Quotes :)
 **Link to project demo:** https://inspiroquotes.netlify.app/
 
-![Project Screenshot](https://github.com/gwendolyn954/merida-sky-gazers/blob/main/img/Sky%20Gazers%20SS.png)
+![Project Screenshot](https://github.com/gwendolyn954/inspiro-quotes/blob/main/images/inspiro-quotes-1.png)
 
 ## Overview:
 
