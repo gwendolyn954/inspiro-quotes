@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background-color: var(--primary-page-bg);
+  color: var(--primary-text-color);
+
+  /* variables - global */
+  --primary-page-bg: #edeef6;
+
+  /* theme-based */
+  --primary-text-color: #333;
+  --modal-bg: #fff;
+  --button-85-bg: #000000;
+  --button-85-color: rgb(255, 255, 255);
+  --button-85-after: #222;
+}
+
+body.dark {
+  --primary-page-bg: #000000;
+  --primary-text-color: #eef0f9;
+  --modal-bg: #181717;
+  --button-85-bg: #dee0ea;
+  --button-85-color: #000000;
+  --button-85-after: #dee0ea;
+
+}
+
+.navbar .container {
+  padding: 30px;
+  display: flex;  
+  justify-content: space-between;
+ 
+}
+
+.logo {
+  font-size: 36px;
+}
+
+main {
+  padding: 30px;
+}
+
+
+.navbar .container input {
+  display: none;
+  margin-left: 700px;
+  margin-right: 5px;
+  height: 40px;
+  min-width: 300px;
+  border-radius: 5px;
+  border: 2px;
+  opacity: .6;
+}
+
+i {
+  margin-top: 30px;
+}
+
+.button-85 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: var(--button-85-color);
+  background: var(--button-85-bg);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--button-85-after);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+main .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+} 
+
+/* opacity set to 0 hides this & only leaves button visible; pointer events make it possible to click button */
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;   
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  background-color: var(--modal-bg);
+  padding: 60px 80px;
+  margin-top: 130px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  height: 350px;
+  width: 700px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 24px;
+  
+}
+
+.modal h4 {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+#close {
+  margin-top: 60px;
+}
+
