@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   margin: 0 auto;
   max-width: 1600px;
