@@ -1,10 +1,10 @@
-//dark theme setup
+//dark theme
 const darkThemeBtn = document.getElementById('darkThemeBtn');
 darkThemeBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
 })
 
-//modal setup
+//modal
 const open = document.getElementById('open');
 const modal_container = document.getElementById('modal_container');
 const close = document.getElementById('close');
@@ -21,15 +21,16 @@ close.addEventListener('click', () => {
 document.getElementById('open').addEventListener('click', getFetch)
 
 function getFetch(){
-    const url = `https://api.goprogram.ai/inspiration`
+    const url = `https://api.quotable.io/random`
 
     fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data)
-        document.querySelector('h3').innerText = data.quote
+        console.log(data.content)
+        console.log(data.author)
+
+        document.querySelector('h3').innerText = data.content
         document.querySelector('h4').innerText = data.author
-        
 
       })
       .catch(err => {
