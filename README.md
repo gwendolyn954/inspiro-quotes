@@ -6,7 +6,7 @@
 
 ## Overview:
 
-**Tech used:** HTML, CSS, JavaScript & quote generator API
+**Tech used:** HTML, CSS, JavaScript & the Quotable.io API
 
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
