@@ -8,9 +8,9 @@
 
 **Tech used:** HTML, CSS, JavaScript & quote generator API
 
-A super-minimalistic inspirational quote generator built to uplift
+A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
 ## Upcoming Features:
 
-- Web Accessibility updates pertaining to new guidelines
+- Make accessible
 - Added responsiveness
