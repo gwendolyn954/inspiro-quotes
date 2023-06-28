@@ -13,4 +13,4 @@ A super-minimalistic inspirational quote generator built to uplift and motivate.
 ## Upcoming Features:
 
 - Make accessible
-- Added responsiveness
+- Make responsive
