@@ -10,6 +10,6 @@
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
 ## Working on:
--Utilizing additional endpoints
--New styling
+- Utilizing additional endpoints
+- New styling
 
