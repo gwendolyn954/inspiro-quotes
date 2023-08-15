@@ -9,7 +9,7 @@
 
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
-## Working on:
-- Utilizing additional endpoints
-- New styling
+## Up Next: 
+- [ ] Utilize additional endpoints
+- [ ] Update interface
 
