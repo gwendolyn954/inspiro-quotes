@@ -10,6 +10,5 @@
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
 ## Up Next: 
-- [ ] Utilize additional endpoints
-- [ ] Update interface
+- [ ] Migrate to React
 
