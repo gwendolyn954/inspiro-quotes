@@ -1,5 +1,5 @@
 //dark theme
-const darkThemeBtn = document.getElementById('darkThemeBtn');
+const darkThemeBtn = document.getElementById('themeSwitch');
 darkThemeBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
 })

@@ -33,26 +33,27 @@ body.dark {
   --modal-bg: #181717;
 }
 
+
 .navbar .container {
-  padding: 30px;
+  padding: 10px 30px;
   display: flex;  
   justify-content: space-between;
- 
 }
 
 .logo {
   font-size: 36px;
+  padding-top: 5px;
 }
 
-i {
-  margin-top: 30px;
-  color: rgb(49, 163, 198);
+img {
+  height: 90px;
+  width: 90px;
+  margin-top: -15px;
 }
 
 main {
   padding: 30px;
 }
-
 
 main .container {
   display: flex;
@@ -65,12 +66,12 @@ main .container {
 button {
   height: 50px;
   width: 150px;
-  background-color: rgb(220, 192, 90);
-  color: rgb(0, 0, 0);
+  background-color: #2aa6cb;
+  color: black;
   border: none;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 
 }
 
@@ -106,12 +107,10 @@ button {
   overflow-y: auto;
   }
   
- 
 .modal h3 {
   margin: 0;
   padding-bottom: 15px;
   font-size: 20px;
-  
 }
 
 .modal h4 {
@@ -169,8 +168,6 @@ button {
     flex-direction: column;
     min-height: auto;
   }
-
-
 
   #open, #close {
     margin-top: 30px;

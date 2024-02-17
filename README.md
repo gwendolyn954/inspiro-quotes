@@ -1,4 +1,4 @@
-# Inspiro Quotes :)
+# Inspiro Quotes
 **Link to project demo:** https://inspiroquotes.netlify.app/
 
 ![Project Screenshot](https://github.com/gwendolyn954/inspiro-quotes/blob/main/images/inspiro-home.png)
@@ -9,6 +9,4 @@
 
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
-## Up Next: 
-- [ ] Migrate to React
 
