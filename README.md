@@ -1,12 +1,14 @@
 # Inspiro Quotes
-**Link to project demo:** https://inspiroquotes.netlify.app/
-
 ![Project Screenshot](https://github.com/gwendolyn954/inspiro-quotes/blob/main/images/inspiro-home.png)
 
-## Overview:
-
-**Tech used:** HTML, CSS, JavaScript & the Quotable.io API
-
+## Overview
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
+## Tech & Tools
+- Quotable.io API 
+- JavaScript
+- CSS3
+- HTML5
 
+## View Demo 
+https://inspiroquotes.netlify.app/
