@@ -28,7 +28,7 @@ body {
 }
 
 body.dark {
-  --primary-page-bg: #000000;
+  --primary-page-bg: #0d0b13;
   --primary-text-color: #eef0f9;
   --modal-bg: #181717;
 }
@@ -66,7 +66,7 @@ main .container {
 button {
   height: 50px;
   width: 150px;
-  background-color: #2aa6cb;
+  background-color: #34bfd4;
   color: black;
   border: none;
   border-radius: 8px;
