@@ -21,7 +21,7 @@ close.addEventListener('click', () => {
 document.getElementById('open').addEventListener('click', getFetch)
 
 function getFetch(){
-    const url = `https://api.quotable.io/random`
+    const url = `https://api.quotable.io/quotes/random`
 
     fetch(url)
       .then(res => res.json()) // parse response as JSON
