@@ -38,7 +38,3 @@ function getFetch(){
       });
 
 }
-
-
-
-
