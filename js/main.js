@@ -21,15 +21,15 @@ close.addEventListener('click', () => {
 document.getElementById('open').addEventListener('click', getFetch)
 
 function getFetch(){
-    const url = `https://api.quotable.io/random`
+    const url = `https://quoteslate.vercel.app/api/quotes/random`
 
     fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data.content)
+        console.log(data.quote)
         console.log(data.author)
 
-        document.querySelector('h3').innerText = data.content
+        document.querySelector('h3').innerText = data.quote
         document.querySelector('h4').innerText = data.author
 
       })
