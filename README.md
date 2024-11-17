@@ -5,10 +5,10 @@
 A super-minimalistic inspirational quote generator built to uplift and motivate.  
 
 ## Tech & Tools
-- Quotable.io API 
+- [QuoteSlate API](https://quoteslate.vercel.app/)
 - JavaScript
-- CSS3
-- HTML5
+- CSS
+- HTML
 
 ## View Demo 
 https://inspiroquotes.netlify.app/
