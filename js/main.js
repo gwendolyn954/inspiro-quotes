@@ -11,6 +11,7 @@ const close = document.getElementById('close');
 
 open.addEventListener('click', () => {
     modal_container.classList.add('show');
+    getFetch();
 });
 
 close.addEventListener('click', () => {
@@ -26,15 +27,21 @@ function getFetch(){
     fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data.quote)
-        console.log(data.author)
+        console.log(data.quote);
+        console.log(data.author);
 
-        document.querySelector('h3').innerText = data.quote
-        document.querySelector('h4').innerText = data.author
-
+        const quoteElem = document.querySelector('h3');
+        const authorElem = document.querySelector('h4');
+        
+        if (quoteElem && authorElem) {
+          quoteElem.innerText = data.quote;
+          authorElem.innerText = data.author;
+        } else {
+          console.log('Quote or Author elements not found in the DOM.');
+        }
       })
       .catch(err => {
-          console.log(`error ${err}`)
+          console.error(`Error fetching quote: ${err}`);
       });
 
 }
