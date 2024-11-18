@@ -16,7 +16,8 @@ body {
   max-width: 1600px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  background-color: var(--primary-page-bg);
+  background: url('/images/inspiro-quotes-bg.png') center center / cover no-repeat;
+
   color: var(--primary-text-color);
 
   /* variables - global */
@@ -28,21 +29,27 @@ body {
 }
 
 body.dark {
-  --primary-page-bg: #0d0b13;
+  background: url('/images/inspiro-quotes-bg-dark.png') center center / cover no-repeat;
   --primary-text-color: #eef0f9;
   --modal-bg: #181717;
 }
 
 
 .navbar .container {
-  padding: 10px 30px;
+  padding: 40px 30px;
   display: flex;  
+  align-items: center;
   justify-content: space-between;
 }
 
 .logo {
   font-size: 36px;
   padding-top: 5px;
+}
+
+#themeSwitch {
+  height: 45px;
+  padding-top: 10px;
 }
 
 img {
